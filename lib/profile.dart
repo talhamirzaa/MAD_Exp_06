@@ -11,7 +11,7 @@ class Profile extends StatefulWidget {
 
 class _ProfileState extends State<Profile> {
 
-var user_name;
+var user_name, email_id, phone, city;
 int dataAccessLevel= 2;
   // void getData() async {
   //   await Future.delayed(Duration(seconds: 3), (){
@@ -31,12 +31,19 @@ int dataAccessLevel= 2;
 
       setState(() {
         user_name = jsonResponse['name'];
+        email_id = jsonResponse['email'];
+        phone = jsonResponse['phone'];
+        city = jsonResponse['city'];
 
       });
       print(user_name);
     } else {
       print('Request failed with status: ${response.statusCode}.');
-      user_name = "Default_Name";
+      user_name = "";
+      email_id = "";
+      phone = "";
+      city = "";
+
     }
   }
   
@@ -122,7 +129,7 @@ int dataAccessLevel= 2;
                 ),
               ],
             ),
-            Text("9594813901", style:TextStyle(
+            Text("$phone", style:TextStyle(
               fontSize: 25.0,
               color: Colors.blue[800],
             ),
@@ -144,7 +151,7 @@ int dataAccessLevel= 2;
                 ),
               ],
             ),
-            Text("nilesh@dbit.in", style:TextStyle(
+            Text("$email_id", style:TextStyle(
               fontSize: 25.0,
               color: Colors.blue[800],
             ),
