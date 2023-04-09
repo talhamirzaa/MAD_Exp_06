@@ -1,4 +1,4 @@
-# Experiment No 6: Profile Page App
+# Experiment No 6: Routes and Consume API 
 
 To develop multiple activities and navigate through routes for our Flutter application
 
