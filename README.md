@@ -17,9 +17,9 @@ During this experiment, we acquired knowledge about
 
 |![plot](./assets/screenshots/screenshot_2.png?raw=true) |
 |:--:|
-| * Profile screen (Data consumed from API)* |
+| *Profile screen (Data consumed from API)* |
 
 |![plot](./assets/screenshots/screenshot_3.png?raw=true) |
 |:--:|
-| * Dashboard screen (Data Passing using routes)* |
+| *Dashboard screen (Data Passing using routes)* |
 
