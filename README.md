@@ -1,6 +1,6 @@
 # Experiment No 6: Routes and Consume API 
 
-To develop multiple activities and navigate through routes for our Flutter application
+To develop multiple activities and navigate through routes for our Flutter application.
 
 ## About Experiment
 
